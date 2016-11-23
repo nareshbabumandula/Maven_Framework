@@ -18,10 +18,10 @@ public class ActionDriver extends StartBrowser{
 	{
 		try {
 			driver.get(url);
-			logger.log(LogStatus.PASS, "Successfully Launched URL : "+url);
+			logger.log(LogStatus.PASS, "Successfully Launched the application URL : "+url);
 		} catch (Exception e) {
 			// TODO: handle exception
-			logger.log(LogStatus.FAIL, "Unable to  Launch URL : "+url);
+			logger.log(LogStatus.FAIL, "Unable to  Launch the application URL : "+url);
 		}
 		
 	}
